@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "blackjack"
+version = "0.1.0"
+dynamic = [
+    "dependencies"
+]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+blackjack = "blackjack.__main__:main"

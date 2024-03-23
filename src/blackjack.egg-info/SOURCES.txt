@@ -1,0 +1,11 @@
+pyproject.toml
+requirements.txt
+src/blackjack/__init__.py
+src/blackjack/__main__.py
+src/blackjack/blackjack.py
+src/blackjack.egg-info/PKG-INFO
+src/blackjack.egg-info/SOURCES.txt
+src/blackjack.egg-info/dependency_links.txt
+src/blackjack.egg-info/entry_points.txt
+src/blackjack.egg-info/requires.txt
+src/blackjack.egg-info/top_level.txt
